@@ -1,4 +1,4 @@
-# FIRST COMMIT
+# Second COMMIT
 # Go example projects
 
 [![Go Reference](https://pkg.go.dev/badge/golang.org/x/example.svg)](https://pkg.go.dev/golang.org/x/example)
