@@ -85,7 +85,7 @@ func imageHandler(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	if err := imageTemplate.Execute(w, data); err != nil {
+	if err := imageTcdmcsemplate.Execute(w, data); err != nil {
 		log.Println(err)
 	}
 }
