@@ -57,7 +57,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		Title: "Image gallery",
 		Body:  "Welcome to the image gallery.",
 	}
-	for name, img := range images {
+	for name, img range images {
 		data.Links = append(data.Links, Link{
 			URL:   "/image/" + name,
 			Title: img.Title,
