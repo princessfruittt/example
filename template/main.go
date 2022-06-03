@@ -70,7 +70,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 
 // imageTemplate is a clone of indexTemplate that provides
 // alternate "sidebar" and "content" templates.
-var imageTemplate := template.Must(template.Must(indexTemplate.Clone()).ParseFiles("image.tmpl"))
+var imageTemplate = template.Must(template.Must(indexTemplate.Clone()).ParseFiles("image.tmpl"))
 
 // Image is a data structure used to populate an imageTemplate.
 type Image struct {
