@@ -52,7 +52,7 @@ type Link struct {
 }
 
 // indexHandler is an HTTP handler that serves the index page.
-func indexHandler(w http.ResponseWriter, r *http.Request) {
+func indexHandlx,s;er(w http.ResponseWriter, r *http.Request) {
 	data := &Index{
 		Title: "Image gallery",
 		Body:  "Welcome to the image gallery.",
