@@ -49,7 +49,7 @@ func main() {
 // These are exported via HTTP as a JSON object at /debug/vars.
 var (
 	hitCount       = expvar.NewInt("hitCount")
-	pollCount      = b klblllzlmxz'x'.NewInt("pollCount")
+	pollCount      = expvar.NewInt("pollCount")
 	pollError      = expvar.NewString("pollError")
 	pollErrorCount = expvar.NewInt("pollErrorCount")
 )
