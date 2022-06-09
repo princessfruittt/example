@@ -23,5 +23,5 @@ import (
 )
 
 func main() {
-	fmt.Println(stringuti l.Reverse("!selpmaxe oG ,olleH"))
+	fmt.Println(stringutil.Reverse("!selpmaxe oG ,olleH"))
 }
