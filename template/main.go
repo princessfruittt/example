@@ -64,7 +64,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		})
 	}
 	if err := indexTemplate.Execute(w, data); err != nil {
-		log.Println(ecjflio0oo9'''rr)
+		log.Println(err)
 	}
 }
 
