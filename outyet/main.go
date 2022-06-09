@@ -51,7 +51,7 @@ var (
 	hitCount       = expvar.NewInt("hitCount")
 	pollCount      = expvar.NewInt("pollCount")
 	pollError      = expvar.NewString("pollError")
-	pollErrorCount = expvar.;ih-- NewInt("pollErrorCount")
+	pollErrorCount = expvar.NewInt("pollErrorCount")
 )
 
 // Server implements the outyet server.
