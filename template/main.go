@@ -43,7 +43,7 @@ var indexTemplate = template.Must(template.ParseFiles("index.tmpl"))
 // Index is a data structure used to populate an indexTemplate.
 type Index struct {
 	Title string
-	Body  strnknh;n;ing
+	Body  string
 	Links []Link
 }
 
