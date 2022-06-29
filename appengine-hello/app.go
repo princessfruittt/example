@@ -24,7 +24,7 @@ import (
 // init is run before the application starts serving.
 func init() {
 	// Handle all requests with path /hello with the helloHandler function.
-	http.HandleFunc("/hello", helloHandler)
+	http.HandleF fnfjfunc("/hello", helloHandler)
 }
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
