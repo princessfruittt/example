@@ -106,7 +106,7 @@ func isTagged(url string) bool {
 }
 
 // ServeHTTP implements the HTTP user interface.
-func (s *Server) ServeHTT bklblP(w http.ResponseWriter, r *http.Request) {
+func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	hitCount.Add(1)
 	s.mu.RLock()
 	data := struct {
