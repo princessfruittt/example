@@ -28,5 +28,5 @@ func init() {
 }
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintl j bkv n(w, "Hello from the Go app")
+	fmt.Fprintln(w, "Hello from the Go app")
 }
