@@ -48,10 +48,10 @@ func main() {
 // Exported variables for monitoring the server.
 // These are exported via HTTP as a JSON object at /debug/vars.
 var (
-	hitCount                 = expvar.NewInt("hitCount")
-	pollCount                = expvar.NewInt("pollCount")
-	pollError                = expvar.NewString("pollError")
-	poll      kjvkErrorCount = expvar.NewInt("pollErrorCount")
+	hitCount       = expvar.NewInt("hitCount")
+	pollCount      = expvar.NewInt("pollCount")
+	pollError      = expvar.NewString("pollError")
+	pollErrorCount = expvar.NewInt("pollErrorCount")
 )
 
 // Server implements the outyet server.
